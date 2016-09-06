@@ -11,13 +11,15 @@
             controlNav: false
         });
         $(".tabs").lightTabs();
-        $( window ).resize(function() {
-            resizeVideo();
-        });
+        // $( window ).resize(function() {
+        //     resizeVideo();
+        // });
+        setInterval(resizeVideo, 100);
     });
 
     function resizeVideo() {
         $( ".video" ).height($( ".scene" ).height());
+        $( ".author" ).height($( ".author-skills" ).height());
     }
 
     jQuery.fn.lightTabs = function(options){

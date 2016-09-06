@@ -128,7 +128,7 @@ q:before, q:after {
 
 h1 {font-family: bignoodletitlingregular, sans-serif; font-size: 72px; color: #d6d5d5; text-transform: uppercase;}
 h2 {margin-top: 75px; text-align: center; font-family: bignoodletitlingregular, sans-serif; font-size: 48px; color: #3d3d3d; background: url("../img/h2_underline.png")no-repeat bottom; padding-bottom: 9px; letter-spacing: 5px; margin-bottom: 29px;}
-h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6;}
+h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
 p {font-family: robotothin, sans-serif; font-size: 16px; line-height: 1.4;}
 a:hover {text-decoration: none; color: inherit;}
 
@@ -198,4 +198,18 @@ a:hover {text-decoration: none; color: inherit;}
 .clients {width: 100%; background: #1c1c1c;}
 .clients .flex-direction-nav a {opacity: 1;}
 .clients .flex-direction-nav a:before {color: #5d5d5d;}
-.flexslider-2 li {}
+.author, .author-skills {background: #ebebeb; overflow: hidden; margin: 85px 0 105px 0;}
+.author_photo {margin: 72px 93px 30px 93px; width: 134px; height: 134px; margin-left: auto; margin-right: auto;}
+.author_name {display: block; font-family: robotobold, sans-serif; font-size: 20px; text-transform: uppercase; color: #3d3d3d; text-align: center;}
+.author_specialization {margin: 8px 0 24px 0; display: block; font-family: robotolight, sans-serif; font-size: 14px; color: #3d3d3d; text-transform: uppercase; text-align: center;}
+.author_social-links {display: block; text-align: center; margin-bottom: 40px;}
+.author_social-links a {color: #696969; margin: 0 10px;}
+.author_social-links a:hover {color: #3d3d3d;}
+.my-skills {font-family: roboto_condensedregular, sans-serif; font-size: 24px; text-transform: uppercase; margin-top: 106px; color: #3d3d3d;}
+.my-skills_description {color: #858383; font-family: robotothin, sans-serif; font-size: 14px; padding: 29px 20px 26px 0;}
+.skill-wrapper {overflow: hidden;}
+.skill_name {float: left; display: block; margin-bottom: 20px; font-family: robotobold, sans-serif; font-size: 14px; color: #3d3d3d; text-transform: uppercase;}
+.meter {background: white; height: 2px; margin: 6px 60px 0 100px;}
+.meter_color {background: #e84c3d; display: block; height: 2px;}
+.skill_progress {float: right; font-family: robotolight, sans-serif; font-size: 14px; margin-right: 20px;}
+.features {width: 100%; background: #171f23;}

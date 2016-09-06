@@ -159,6 +159,9 @@ h3 {
   font-family: roboto_condensedregular, sans-serif;
   font-size: 36px;
   color: #f6f6f6;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 /* line 132, ../scss/style.scss */
@@ -433,4 +436,120 @@ a:hover {
 /* line 200, ../scss/style.scss */
 .clients .flex-direction-nav a:before {
   color: #5d5d5d;
+}
+
+/* line 201, ../scss/style.scss */
+.author, .author-skills {
+  background: #ebebeb;
+  overflow: hidden;
+  margin: 85px 0 105px 0;
+}
+
+/* line 202, ../scss/style.scss */
+.author_photo {
+  margin: 72px 93px 30px 93px;
+  width: 134px;
+  height: 134px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 203, ../scss/style.scss */
+.author_name {
+  display: block;
+  font-family: robotobold, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  text-align: center;
+}
+
+/* line 204, ../scss/style.scss */
+.author_specialization {
+  margin: 8px 0 24px 0;
+  display: block;
+  font-family: robotolight, sans-serif;
+  font-size: 14px;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 205, ../scss/style.scss */
+.author_social-links {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 206, ../scss/style.scss */
+.author_social-links a {
+  color: #696969;
+  margin: 0 10px;
+}
+
+/* line 207, ../scss/style.scss */
+.author_social-links a:hover {
+  color: #3d3d3d;
+}
+
+/* line 208, ../scss/style.scss */
+.my-skills {
+  font-family: roboto_condensedregular, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 106px;
+  color: #3d3d3d;
+}
+
+/* line 209, ../scss/style.scss */
+.my-skills_description {
+  color: #858383;
+  font-family: robotothin, sans-serif;
+  font-size: 14px;
+  padding: 29px 20px 26px 0;
+}
+
+/* line 210, ../scss/style.scss */
+.skill-wrapper {
+  overflow: hidden;
+}
+
+/* line 211, ../scss/style.scss */
+.skill_name {
+  float: left;
+  display: block;
+  margin-bottom: 20px;
+  font-family: robotobold, sans-serif;
+  font-size: 14px;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+
+/* line 212, ../scss/style.scss */
+.meter {
+  background: white;
+  height: 2px;
+  margin: 6px 60px 0 100px;
+}
+
+/* line 213, ../scss/style.scss */
+.meter_color {
+  background: #e84c3d;
+  display: block;
+  height: 2px;
+}
+
+/* line 214, ../scss/style.scss */
+.skill_progress {
+  float: right;
+  font-family: robotolight, sans-serif;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+/* line 215, ../scss/style.scss */
+.features {
+  width: 100%;
+  background: #171f23;
 }

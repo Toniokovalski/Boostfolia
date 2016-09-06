@@ -60,19 +60,377 @@ q:before, q:after {
 }
 
 /* CSS Reset Ends */
-/* line 45, ../scss/style.scss */
+/* ---FONTS--- */
+@font-face {
+  font-family: 'bignoodletitlingregular';
+  src: url("../fonts/big_noodle_titling/big_noodle_titling-webfont.woff2") format("woff2"), url("../fonts/big_noodle_titling/big_noodle_titling-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoblack';
+  src: url("../fonts/roboto/roboto-black-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotobold';
+  src: url("../fonts/roboto/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_condensedbold';
+  src: url("../fonts/roboto/robotocondensed-bold-webfont.woff2") format("woff2"), url("../fonts/roboto/robotocondensed-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_condenseditalic';
+  src: url("../fonts/roboto/robotocondensed-italic-webfont.woff2") format("woff2"), url("../fonts/roboto/robotocondensed-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_condensedlight';
+  src: url("../fonts/roboto/robotocondensed-light-webfont.woff2") format("woff2"), url("../fonts/roboto/robotocondensed-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_condensedregular';
+  src: url("../fonts/roboto/robotocondensed-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/robotocondensed-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoitalic';
+  src: url("../fonts/roboto/roboto-italic-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotolight';
+  src: url("../fonts/roboto/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: url("../fonts/roboto/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotothin';
+  src: url("../fonts/roboto/roboto-thin-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 129, ../scss/style.scss */
+h1 {
+  font-family: bignoodletitlingregular, sans-serif;
+  font-size: 72px;
+  color: #d6d5d5;
+  text-transform: uppercase;
+}
+
+/* line 130, ../scss/style.scss */
+h2 {
+  margin-top: 75px;
+  text-align: center;
+  font-family: bignoodletitlingregular, sans-serif;
+  font-size: 48px;
+  color: #3d3d3d;
+  background: url("../img/h2_underline.png") no-repeat bottom;
+  padding-bottom: 9px;
+  letter-spacing: 5px;
+  margin-bottom: 29px;
+}
+
+/* line 131, ../scss/style.scss */
+h3 {
+  font-family: roboto_condensedregular, sans-serif;
+  font-size: 36px;
+  color: #f6f6f6;
+}
+
+/* line 132, ../scss/style.scss */
+p {
+  font-family: robotothin, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* line 133, ../scss/style.scss */
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 135, ../scss/style.scss */
 .header {
   height: 143px;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .logo {
   float: left;
   margin-top: 50px;
 }
 
-/* line 47, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .sandwich {
   float: right;
   margin: 64px 6px 0 0;
+}
+
+/* line 139, ../scss/style.scss */
+.slider-info {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: block;
+}
+
+/* line 140, ../scss/style.scss */
+.slider-info_scroll {
+  text-align: center;
+  display: block;
+  margin-top: 170px;
+}
+
+/* line 141, ../scss/style.scss */
+.flexslider {
+  margin: 0 !important;
+}
+
+/* line 142, ../scss/style.scss */
+.flexslider .slides li {
+  position: relative;
+}
+
+/* line 143, ../scss/style.scss */
+#slider .slider-info_mouse {
+  width: 18px;
+  margin: 0 auto;
+}
+
+/* line 144, ../scss/style.scss */
+.slider-info_span {
+  color: #d6d5d5;
+  text-transform: uppercase;
+  font-family: bignoodletitlingregular, sans-serif;
+  font-size: 36px;
+}
+
+/* line 145, ../scss/style.scss */
+.slider-info_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  margin-top: 20px;
+}
+
+/* line 146, ../scss/style.scss */
+.slider-info_scroll:hover {
+  text-decoration: none;
+}
+
+/* line 147, ../scss/style.scss */
+.about p, .works p {
+  text-align: center;
+}
+
+/* line 148, ../scss/style.scss */
+.about-block {
+  margin: 60px 0 120px 0;
+}
+
+/* line 149, ../scss/style.scss */
+.about-block_background {
+  background: #ebebeb;
+  overflow: hidden;
+}
+
+/* line 150, ../scss/style.scss */
+.about-block_image-wrapper {
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* line 151, ../scss/style.scss */
+.about-block_image-1 {
+  background: url("../img/about_1.png") center no-repeat;
+}
+
+/* line 152, ../scss/style.scss */
+.about-block_image-2 {
+  background: url("../img/about_2.png") center no-repeat;
+}
+
+/* line 153, ../scss/style.scss */
+.about-block_image-3 {
+  background: url("../img/about_3.png") center no-repeat;
+}
+
+/* line 154, ../scss/style.scss */
+.about-block_description, .about-block p {
+  text-align: center;
+  display: block;
+  color: #707070;
+}
+
+/* line 155, ../scss/style.scss */
+.about-block_description {
+  font-family: robotobold, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* line 156, ../scss/style.scss */
+.about-block p {
+  font-family: robotothin, sans-serif;
+  font-size: 14px;
+  margin: 17px 36px 23px 36px;
+}
+
+/* line 157, ../scss/style.scss */
+.presentation-wrapper {
+  width: 100%;
+}
+
+/* line 158, ../scss/style.scss */
+.scene {
+  width: 50%;
+  float: left;
+  background: #171f23;
+  overflow: hidden;
+}
+
+/* line 159, ../scss/style.scss */
+.video {
+  width: 50%;
+  float: right;
+}
+
+/* line 160, ../scss/style.scss */
+.scene_name {
+  font-family: robotobold, sans-serif;
+  font-size: 30px;
+  color: #e7e7e7;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 130px;
+}
+
+/* line 161, ../scss/style.scss */
+.scene P {
+  font-family: robotothin, sans-serif;
+  font-size: 14px;
+  color: #696969;
+  margin: 30px 80px 50px 80px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* line 162, ../scss/style.scss */
+.calltoaction {
+  display: block;
+  margin: 0 auto 100px auto;
+  text-transform: uppercase;
+  background: #e84c3d;
+  border-bottom: 2px solid #b11000;
+  padding: 10px 0;
+  width: 130px;
+  text-align: center;
+  color: #ebebeb;
+  font-family: robotobold, sans-serif;
+  font-size: 14px;
+}
+
+/* line 174, ../scss/style.scss */
+.video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 175, ../scss/style.scss */
+.tabs {
+  text-align: center;
+  margin: 85px 0 25px 0;
+}
+
+/* line 176, ../scss/style.scss */
+.tabs > div {
+  padding-top: 10px;
+}
+
+/* line 177, ../scss/style.scss */
+.tabs ul {
+  display: inline-block;
+}
+
+/* line 178, ../scss/style.scss */
+.tabs ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 182, ../scss/style.scss */
+.tabs ul li {
+  margin: 0;
+  cursor: pointer;
+  display: block;
+  float: left;
+  padding: 10px 25px;
+  color: #3d3d3d;
+  font-family: robotolight,sans-serif;
+  font-size: 14px;
+}
+
+/* line 191, ../scss/style.scss */
+.tabs ul li.active, .tabs ul li.active:hover {
+  border-bottom: 1px solid #e84c3d;
+  padding-bottom: 8px;
+  color: #3d3d3d;
+  font-family: robotobold,sans-serif;
+}
+
+/* line 196, ../scss/style.scss */
+.tabs ul li:hover {
+  background: #d6d6d7;
+}
+
+/* line 197, ../scss/style.scss */
+.tabs_projects img {
+  margin: 15px;
+}
+
+/* line 198, ../scss/style.scss */
+.clients {
+  width: 100%;
+  background: #1c1c1c;
+}
+
+/* line 199, ../scss/style.scss */
+.clients .flex-direction-nav a {
+  opacity: 1;
+}
+
+/* line 200, ../scss/style.scss */
+.clients .flex-direction-nav a:before {
+  color: #5d5d5d;
 }

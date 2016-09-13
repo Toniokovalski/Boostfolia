@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+  /* line 7, ../scss/responsive.scss */
+  .scene, .video {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  /* line 17, ../scss/responsive.scss */
+  .sandwich_menu {
+    position: relative;
+    z-index: 111;
+    float: left;
+    top: 0;
+    margin-top: 10px;
+  }
+  /* line 23, ../scss/responsive.scss */
+  .sandwich_menu li {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+}

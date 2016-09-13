@@ -126,24 +126,34 @@ q:before, q:after {
   font-weight: normal;
   font-style: normal;}
 
-h1 {font-family: bignoodletitlingregular, sans-serif; font-size: 72px; color: #d6d5d5; text-transform: uppercase;}
+h1 {font-family: bignoodletitlingregular, sans-serif; font-size: 72px; color: #d6d5d5; text-transform: uppercase; letter-spacing: 0.1em;}
 h2 {margin-top: 75px; text-align: center; font-family: bignoodletitlingregular, sans-serif; font-size: 48px; color: #3d3d3d; background: url("../img/h2_underline.png")no-repeat bottom; padding-bottom: 9px; letter-spacing: 5px; margin-bottom: 29px;}
-h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6; text-transform: uppercase; letter-spacing: 5px; text-align: center; background: url("../img/h3_underline.png")no-repeat bottom; margin-top: 60px; padding-bottom: 20px;}
+h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6; text-transform: uppercase; letter-spacing: 5px; text-align: center; background: url("../img/h3_underline.png")no-repeat bottom; margin-top: 60px; padding-bottom: 20px; letter-spacing: 0.2em;}
 p {font-family: robotothin, sans-serif; font-size: 16px; line-height: 1.4;}
 a:hover {text-decoration: none; color: inherit;}
 
 .header {height: 143px}
 .logo {float: left; margin-top: 50px;}
-.sandwich {float: right; margin: 64px 6px 0 0;}
-.sandwich_menu {}
+.sandwich {float: right; margin: 64px 6px 0 0; position: relative;}
+.sandwich_menu {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  display: none;
+  li {
+    float: left; width: 24.5%; text-align: center; padding-bottom: 5px;
+    a {font-family: bignoodletitlingregular, sans-serif; font-size: 28px; letter-spacing: 0.1em; text-decoration: none; color: #3d3d3d;}
+    a:hover {border-bottom: 1px solid #e84c3d;}
+  }
+}
 .slider-info {position: absolute; top: 45%; left:0; right: 0; text-align: center; display: block;}
-.slider-info_scroll {text-align: center; display: block; margin-top: 170px;}
+.slider-info_scroll {text-align: center; display: block; margin-top: 5%;}
 .flexslider {margin: 0!important;}
 .flexslider .slides li {position: relative;}
 #slider .slider-info_mouse {width: 18px; margin: 0 auto;}
 .slider-info_span {color: #d6d5d5; text-transform: uppercase; font-family: bignoodletitlingregular, sans-serif; font-size: 36px;}
 .slider-info_link {text-decoration: none; text-transform: uppercase; color: #ffffff; display: block; margin-top: 20px;}
-.slider-info_scroll:hover {text-decoration: none;}
+.slider-info_scroll:hover, .slider-info_scroll:focus, .slider-info_scroll:active {text-decoration: none;}
 .about {padding-bottom: 120px;}
 .h2_description {text-align: center;}
 .about-block { margin: 60px 0 0 0;}
@@ -197,6 +207,9 @@ a:hover {text-decoration: none; color: inherit;}
 .tabs ul li:hover{background:#d6d6d7;}
 .tabs_projects img {margin: 15px;}
 .clients {width: 100%; background: #1c1c1c;}
+.first_slider_wrapper {display: table; width: 100%;}
+.second_slider_wrapper {display: table-cell; vertical-align: middle; height: 240px; width: 33%; text-align: center;}
+.flex-2_image {display: inline}
 .clients .flex-direction-nav a {opacity: 1;}
 .clients .flex-direction-nav a:before {color: #5d5d5d;}
 .author, .author-skills {background: #ebebeb; overflow: hidden; margin: 85px 0 105px 0;}

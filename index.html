@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/jquery-1.11.3.js"></script>
     <link href="js/FlexSlider/flexslider.css" rel="stylesheet">
     <script src="js/FlexSlider/jquery.flexslider.js"></script>
@@ -20,14 +21,14 @@
                 <div class="col-lg-12 col-xs-12">
                     <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
                     <a href="#" class="sandwich"><img src="img/sandwich.png" alt="sandwich">
-                        <!--<nav class="sandwich_menu">-->
-                            <!--<ul>-->
-                                <!--<li><a href="#">About Us</a></li>-->
-                                <!--<li><a href="#">Portfolio</a></li>-->
-                                <!--<li><a href="#">Blog</a></li>-->
-                                <!--<li><a href="#">Contacts</a></li>-->
-                            <!--</ul>-->
-                        <!--</nav>-->
+                        <nav class="sandwich_menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
                     </a>
                 </div>
             </div>
@@ -112,7 +113,7 @@
     <div class="works">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="scroll col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <h2>Our Works</h2>
                     <p class="h2_description col-lg-offset-2 col-lg-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="tabs">
@@ -165,16 +166,18 @@
                     <div class="flexslider-2">
                         <ul class="slides">
                             <li>
-                                <div>
-                                    <img src="slider-images/client-1.png" alt="slider-image"/>
-                                    <img src="slider-images/client-2.png" alt="slider-image"/>
-                                    <img src="slider-images/client-3.png" alt="slider-image"/>
+                                <div class="first_slider_wrapper">
+                                    <div class="second_slider_wrapper"><img class="flex-1_image" src="slider-images/client-1.png" alt="slider-image"/></div>
+                                    <div class="second_slider_wrapper"><img class="flex-2_image" src="slider-images/client-2.png" alt="slider-image"/></div>
+                                    <div class="second_slider_wrapper"><img class="flex-3_image" src="slider-images/client-3.png" alt="slider-image"/></div>
                                 </div>
                             </li>
                             <li>
-                                <img src="slider-images/client-3.png" alt="slider-image"/>
-                                <img src="slider-images/client-1.png" alt="slider-image"/>
-                                <img src="slider-images/client-2.png" alt="slider-image"/>
+                                <div class="first_slider_wrapper">
+                                    <div class="second_slider_wrapper"><img class="flex-3_image" src="slider-images/client-3.png" alt="slider-image"/></div>
+                                    <div class="second_slider_wrapper"><img class="flex-1_image" src="slider-images/client-1.png" alt="slider-image"/></div>
+                                    <div class="second_slider_wrapper"><img class="flex-2_image" src="slider-images/client-2.png" alt="slider-image"/></div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -447,7 +450,7 @@
         </div>
 
         <div class="footer_info">
-            <img class="rocket" src="img/rocket.png" alt="rocket">
+            <a href="#"><img class="rocket" src="img/rocket.png" alt="rocket"></a>
             <div class="layout_name">Boostfolia</div>
             <div class="layout_description">Made with love by creativeproduct</div>
             <div class="footer_social">

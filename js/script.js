@@ -16,9 +16,15 @@
         // });
         setInterval(resizeVideo, 100);
 
-        $(".link_wrapper").on("click", function (e) {
+        $(".link_wrapper, .sandwich").on("click", function (e) {
             e.preventDefault();
-            $(".map_wrapper").toggle();
+            $(".map_wrapper, .sandwich_menu").toggle();
+        });
+        $(".slider-info_scroll").on("click", function (e) {
+            e.preventDefault();
+            $("html,body").animate({
+                scrollTop: $(".scroll").offset().top
+            }, 1500);
         })
     });
 

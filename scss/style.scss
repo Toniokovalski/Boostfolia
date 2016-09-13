@@ -128,7 +128,7 @@ q:before, q:after {
 
 h1 {font-family: bignoodletitlingregular, sans-serif; font-size: 72px; color: #d6d5d5; text-transform: uppercase;}
 h2 {margin-top: 75px; text-align: center; font-family: bignoodletitlingregular, sans-serif; font-size: 48px; color: #3d3d3d; background: url("../img/h2_underline.png")no-repeat bottom; padding-bottom: 9px; letter-spacing: 5px; margin-bottom: 29px;}
-h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f6f6f6; text-transform: uppercase; letter-spacing: 5px; text-align: center; background: url("../img/h3_underline.png")no-repeat bottom; margin-top: 60px; padding-bottom: 20px;}
 p {font-family: robotothin, sans-serif; font-size: 16px; line-height: 1.4;}
 a:hover {text-decoration: none; color: inherit;}
 
@@ -144,8 +144,9 @@ a:hover {text-decoration: none; color: inherit;}
 .slider-info_span {color: #d6d5d5; text-transform: uppercase; font-family: bignoodletitlingregular, sans-serif; font-size: 36px;}
 .slider-info_link {text-decoration: none; text-transform: uppercase; color: #ffffff; display: block; margin-top: 20px;}
 .slider-info_scroll:hover {text-decoration: none;}
-.about p, .works p {text-align: center;}
-.about-block { margin: 60px 0 120px 0;}
+.about {padding-bottom: 120px;}
+.h2_description {text-align: center;}
+.about-block { margin: 60px 0 0 0;}
 .about-block_background {background: #ebebeb; overflow: hidden;}
 .about-block_image-wrapper {width: 60px; height: 60px; margin: 20px auto; display: block;}
 .about-block_image-1 {background: url("../img/about_1.png")center no-repeat}
@@ -212,4 +213,81 @@ a:hover {text-decoration: none; color: inherit;}
 .meter {background: white; height: 2px; margin: 6px 60px 0 100px;}
 .meter_color {background: #e84c3d; display: block; height: 2px;}
 .skill_progress {float: right; font-family: robotolight, sans-serif; font-size: 14px; margin-right: 20px;}
-.features {width: 100%; background: #171f23;}
+.features {width: 100%; background: #171f23; padding-bottom: 69px;}
+.features_image {width: 56px; height: 56px; margin: 44px auto 30px auto;}
+.features_name, .features_count {text-align: center; font-family: robotolight, sans-serif; color: #f6f6f6; display: block;}
+.features_name {font-size: 18px; margin-bottom: 28px;}
+.features_count {font-size: 48px;}
+.blog {margin-bottom: 115px;}
+.post {position: relative;}
+.post-image {background: url("../img/blog_image.jpg") no-repeat; background-size: 100% ;position: relative; width: 100%; height: 218px; overflow: hidden; margin-top: 75px;img{width: 100%;}}
+.post:hover .post-image {-webkit-filter: blur(5px); -moz-filter: blur(5px); -o-filter: blur(5px); -ms-filter: blur(5px); filter: blur(5px);}
+.post_link {position: absolute; left: 0; right: 0; top: 45%; text-align: center;}
+.i_wrapper  {width: 43px; height: 43px; background: #f6e5e0; margin: 0 15px; border-radius: 30px; display: inline-block; color: #f58166;}
+.i_wrapper:hover, .i_wrapper:active, .i_wrapper:focus {background: #e87e5d; color: #fbfbfb}
+.post .fa {font-size: 26px; padding-left: 1px; padding-top: 8px;}
+.post-wrapper {background: #ebebeb; overflow: hidden;}
+.post_title {display: block; color: #505050; padding: 40px 25px 30px 25px; font-size: 18px; font-family: robotolight, sans-serif;}
+.post_text {font-family: robotothin, sans-serif; font-size: 14px; color: #797979; padding: 0 35px 0 25px;}
+.post_time, .post_comments, .post_likes {padding-left: 20px; font-family: roboto_condensedregular, sans-serif; font-size: 12px; color: #8a8989; display: block;}
+.post_time {background: url("../img/post_time.png") left center no-repeat; margin: 35px 0 25px 25px; padding-left: 20px; float: left;}
+.post_social {float: right; margin: 35px 30px 0 0;}
+.post_likes {background: url("../img/post_likes.png") left center no-repeat; float: left; margin-right: 10px;}
+.post_comments {background: url("../img/post_comments.png") left center no-repeat; float: right;}
+.plan {width: 100%; background: #171f23; }
+.plan h3 {margin-bottom: 55px;}
+.plan_all {overflow: hidden; text-align: center; margin-bottom: 94px;}
+.plan_wrapper {border: 1px solid #171f23; width: 260px; display: inline-block;}
+.plan_wrapper:hover, .plan_wrapper:active, .plan_wrapper:focus {border: 1px solid #f6744b;}
+.plan_name_background {background: #0e1316;}
+.plane_name {font-family: robotobold, sans-serif; font-size: 14px; color: #ffffff; text-align: center; padding: 43px 0 10px 0;}
+.plan_price {font-family: robotolight, sans-serif; font-size: 36px; color: #ffffff; text-align: center; padding: 0 85px 39px 85px;}
+.plan_info {text-align: center; background: #1f282c; color: #ffffff; font-size: 14px; overflow: hidden;
+  div {font-family: robotolight, sans-serif; padding: 12px 0;}
+  span {font-family: robotoregular, sans-serif;}
+}
+.margin-top {margin-top: 38px;}
+.purchase {background: #f6744b; text-align: center; width: 125px; border-radius: 10px; margin: 66px auto 46px auto;
+  a {color: #ffffff; display: block; font-family: robotobold, sans-serif; font-size: 14px; letter-spacing: 2px;}
+  a:hover {color: #171f23;}
+}
+.get-in-touch {margin-bottom: 83px;}
+.form {text-align: center; margin-top: 100px;}
+.form label {position: absolute; left: 15px; top:10px; font-family: robotobold, sans-serif; font-size: 14px;}
+.form-input {
+  border: none;
+  font-family: robotoregular, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  padding-bottom: 5px;
+  margin-top: 48px;
+  width: 100%;
+  background: url("../img/form_input_underline.png")repeat-x bottom left;
+}
+.form-input:focus {outline: none;}
+.send-button {background: #f6744b; text-align: center; font-family: robotobold, sans-serif; font-size: 14px; color: #ffffff; border: none; padding: 20px 42px; margin-top: 60px; display: inline-block;}
+footer {background: #171f23; width: 100%;}
+.map {width: 100%; background: #0c1215;}
+.link_wrapper {width: 240px; margin: 0 auto;
+  a {
+    display: block;
+    font-family: roboto_condensedbold, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 33px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;}
+  a:hover, a:active, a:focus {text-decoration: none;}
+  img {padding-left: 13px; margin-bottom: 4px;}
+}
+.map_wrapper {display: none;}
+.footer_info {text-align: center; margin-top: 50px;}
+.rocket {margin-bottom: 10px;}
+.layout_name {font-family: BigNoodleTitling, sans-serif; font-size: 24px; letter-spacing: 0.1em; color: #ffffff; margin-bottom: 14px;}
+.layout_description {font-family: roboto_condensedregular, sans-serif; font-size: 14px; color: #ffffff; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 19px;}
+.footer_social {
+  padding-bottom: 63px;
+  a {padding: 0 5px; color: #e2e0e0;}
+  a:hover {color: #f6744b;}
+}

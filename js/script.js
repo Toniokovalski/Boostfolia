@@ -15,6 +15,11 @@
         //     resizeVideo();
         // });
         setInterval(resizeVideo, 100);
+
+        $(".link_wrapper").on("click", function (e) {
+            e.preventDefault();
+            $(".map_wrapper").toggle();
+        })
     });
 
     function resizeVideo() {
@@ -49,3 +54,5 @@
         return this.each(createTabs);
     };
 })(jQuery);
+
+

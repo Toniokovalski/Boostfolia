@@ -1,11 +1,69 @@
+@media (max-width: 1199px) {
+  /* line 3, ../scss/responsive.scss */
+  .slider-info {
+    top: 40%;
+  }
+
+  /* line 4, ../scss/responsive.scss */
+  .slider-info_scroll {
+    margin-top: 4%;
+  }
+}
 @media (max-width: 1024px) {
-  /* line 7, ../scss/responsive.scss */
+  /* line 8, ../scss/responsive.scss */
   .scene, .video {
     width: 100%;
   }
 }
+@media (max-width: 991px) {
+  /* line 13, ../scss/responsive.scss */
+  h1 {
+    font-size: 50px;
+  }
+
+  /* line 14, ../scss/responsive.scss */
+  .slider-info {
+    top: 30%;
+  }
+
+  /* line 15, ../scss/responsive.scss */
+  .slider-info_scroll {
+    margin-top: 3%;
+  }
+}
 @media (max-width: 768px) {
-  /* line 17, ../scss/responsive.scss */
+  /* line 20, ../scss/responsive.scss */
+  .logo {
+    margin: 20px 0;
+  }
+
+  /* line 21, ../scss/responsive.scss */
+  .sandwich {
+    margin-top: 34px;
+  }
+
+  /* line 22, ../scss/responsive.scss */
+  h1 {
+    font-size: 40px;
+  }
+
+  /* line 23, ../scss/responsive.scss */
+  h2 {
+    margin-top: 30px;
+  }
+
+  /* line 24, ../scss/responsive.scss */
+  .slider-info {
+    top: 20%;
+  }
+
+  /* line 25, ../scss/responsive.scss */
+  .slider-info_scroll {
+    margin-top: 2%;
+    font-size: 12px;
+  }
+
+  /* line 26, ../scss/responsive.scss */
   .sandwich_menu {
     position: relative;
     z-index: 111;
@@ -13,10 +71,114 @@
     top: 0;
     margin-top: 10px;
   }
-  /* line 23, ../scss/responsive.scss */
+  /* line 32, ../scss/responsive.scss */
   .sandwich_menu li {
     float: none;
     width: 100%;
     text-align: left;
+  }
+
+  /* line 34, ../scss/responsive.scss */
+  .about {
+    padding-bottom: 40px;
+  }
+
+  /* line 35, ../scss/responsive.scss */
+  .about-block {
+    margin-top: 30px;
+  }
+
+  /* line 36, ../scss/responsive.scss */
+  .tabs {
+    margin-top: 30px;
+  }
+
+  /* line 37, ../scss/responsive.scss */
+  .tabs ul li {
+    padding: 10px 15px;
+  }
+
+  /* line 38, ../scss/responsive.scss */
+  .author, .author-skills {
+    margin: 30px 0;
+  }
+
+  /* line 39, ../scss/responsive.scss */
+  .post-image {
+    margin-top: 40px;
+  }
+
+  /* line 40, ../scss/responsive.scss */
+  .blog {
+    margin-bottom: 40px;
+  }
+
+  /* line 41, ../scss/responsive.scss */
+  .form {
+    margin-top: 50px;
+  }
+
+  /* line 42, ../scss/responsive.scss */
+  .get-in-touch {
+    margin-bottom: 40px;
+  }
+
+  /* line 43, ../scss/responsive.scss */
+  .my-skills {
+    margin-top: 30px;
+  }
+
+  /* line 44, ../scss/responsive.scss */
+  .author_photo {
+    margin-top: 30px;
+  }
+
+  /* line 45, ../scss/responsive.scss */
+  .meter-wrapper {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 543px) {
+  /* line 50, ../scss/responsive.scss */
+  .tabs ul li {
+    float: none;
+  }
+
+  /* line 51, ../scss/responsive.scss */
+  .flex-direction-nav {
+    display: none;
+  }
+
+  /* line 52, ../scss/responsive.scss */
+  h1 {
+    font-size: 26px;
+  }
+
+  /* line 53, ../scss/responsive.scss */
+  .slider-info_span {
+    display: none;
+  }
+
+  /* line 54, ../scss/responsive.scss */
+  .slider-info_scroll {
+    margin-top: 1%;
+  }
+
+  /* line 55, ../scss/responsive.scss */
+  #slider .slider-info_mouse {
+    display: none;
+  }
+
+  /* line 56, ../scss/responsive.scss */
+  .second_slider_wrapper {
+    height: auto;
+    width: auto;
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  /* line 60, ../scss/responsive.scss */
+  h1 {
+    font-size: 18px;
   }
 }

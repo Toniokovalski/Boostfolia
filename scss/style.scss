@@ -132,8 +132,8 @@ h3 {font-family: roboto_condensedregular, sans-serif; font-size: 36px; color: #f
 p {font-family: robotothin, sans-serif; font-size: 16px; line-height: 1.4;}
 a:hover {text-decoration: none; color: inherit;}
 
-.header {height: 143px}
-.logo {float: left; margin-top: 50px;}
+
+.logo {float: left; margin: 50px 0;}
 .sandwich {float: right; margin: 64px 6px 0 0; position: relative;}
 .sandwich_menu {
   position: absolute;
@@ -141,11 +141,12 @@ a:hover {text-decoration: none; color: inherit;}
   width: 100%;
   display: none;
   li {
-    float: left; width: 24.5%; text-align: center; padding-bottom: 5px;
+    float: left; width: 24.5%; text-align: center; padding-bottom: 5px; margin-bottom: 5px;
     a {font-family: bignoodletitlingregular, sans-serif; font-size: 28px; letter-spacing: 0.1em; text-decoration: none; color: #3d3d3d;}
     a:hover {border-bottom: 1px solid #e84c3d;}
   }
 }
+.slider {clear: both;}
 .slider-info {position: absolute; top: 45%; left:0; right: 0; text-align: center; display: block;}
 .slider-info_scroll {text-align: center; display: block; margin-top: 5%;}
 .flexslider {margin: 0!important;}
@@ -154,6 +155,23 @@ a:hover {text-decoration: none; color: inherit;}
 .slider-info_span {color: #d6d5d5; text-transform: uppercase; font-family: bignoodletitlingregular, sans-serif; font-size: 36px;}
 .slider-info_link {text-decoration: none; text-transform: uppercase; color: #ffffff; display: block; margin-top: 20px;}
 .slider-info_scroll:hover, .slider-info_scroll:focus, .slider-info_scroll:active {text-decoration: none;}
+.slider-text-shadow {text-shadow:
+-0   -1px 0   #000000,
+0   -1px 0   #000000,
+-0    1px 0   #000000,
+0    1px 0   #000000,
+-1px -0   0   #000000,
+1px -0   0   #000000,
+-1px  0   0   #000000,
+1px  0   0   #000000,
+-1px -1px 0   #000000,
+1px -1px 0   #000000,
+-1px  1px 0   #000000,
+1px  1px 0   #000000,
+-1px -1px 0   #000000,
+1px -1px 0   #000000,
+-1px  1px 0   #000000,
+1px  1px 0   #000000;}
 .about {padding-bottom: 120px;}
 .h2_description {text-align: center;}
 .about-block { margin: 60px 0 0 0;}
@@ -223,6 +241,7 @@ a:hover {text-decoration: none; color: inherit;}
 .my-skills_description {color: #858383; font-family: robotothin, sans-serif; font-size: 14px; padding: 29px 20px 26px 0;}
 .skill-wrapper {overflow: hidden;}
 .skill_name {float: left; display: block; margin-bottom: 20px; font-family: robotobold, sans-serif; font-size: 14px; color: #3d3d3d; text-transform: uppercase;}
+.meter-wrapper {margin-bottom: 50px;}
 .meter {background: white; height: 2px; margin: 6px 60px 0 100px;}
 .meter_color {background: #e84c3d; display: block; height: 2px;}
 .skill_progress {float: right; font-family: robotolight, sans-serif; font-size: 14px; margin-right: 20px;}

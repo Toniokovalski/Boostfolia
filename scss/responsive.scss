@@ -1,6 +1,7 @@
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199px) {
-
+  .slider-info {top: 40%;}
+  .slider-info_scroll {margin-top: 4%;}
 }
 
 @media (max-width: 1024px) {
@@ -9,11 +10,19 @@
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) {
-
+  h1 {font-size: 50px;}
+  .slider-info {top: 30%;}
+  .slider-info_scroll {margin-top: 3%;}
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
+  .logo {margin: 20px 0;}
+  .sandwich {margin-top: 34px;}
+  h1 {font-size: 40px;}
+  h2 {margin-top: 30px;}
+  .slider-info {top: 20%;}
+  .slider-info_scroll {margin-top: 2%; font-size: 12px;}
   .sandwich_menu {
     position: relative;
     z-index: 111;
@@ -22,13 +31,31 @@
     margin-top: 10px;
     li {float: none; width: 100%; text-align: left;}
   }
+  .about {padding-bottom: 40px;}
+  .about-block {margin-top: 30px;}
+  .tabs {margin-top: 30px;}
+  .tabs ul li {padding: 10px 15px;}
+  .author, .author-skills {margin: 30px 0;}
+  .post-image {margin-top: 40px;}
+  .blog {margin-bottom: 40px;}
+  .form {margin-top: 50px;}
+  .get-in-touch {margin-bottom: 40px;}
+  .my-skills {margin-top: 30px;}
+  .author_photo {margin-top: 30px;}
+  .meter-wrapper {margin-bottom: 30px;}
 }
 
 // Extra small devices (portrait phones, less than 544px)
 @media (max-width: 543px) {
-
+  .tabs ul li {float: none;}
+  .flex-direction-nav {display: none}
+  h1 {font-size: 26px;}
+  .slider-info_span {display: none;}
+  .slider-info_scroll {margin-top: 1%;}
+  #slider .slider-info_mouse {display: none;}
+  .second_slider_wrapper {height: auto; width: auto; display: block;}
 }
 
 @media (max-width: 320px) {
-
+  h1 {font-size: 18px;}
 }

@@ -11,9 +11,7 @@
             controlNav: false
         });
         $(".tabs").lightTabs();
-        // $( window ).resize(function() {
-        //     resizeVideo();
-        // });
+
         setInterval(resizeVideo, 100);
 
         $(".link_wrapper, .sandwich").on("click", function (e) {
